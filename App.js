@@ -71,7 +71,7 @@ export default App;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'white',
+    backgroundColor: '#e2cc23',
     justifyContent: 'center',
     alignItems: 'center',
     textAlign: 'center',
@@ -95,9 +95,9 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   buttonStyle: {
-    backgroundColor: '#51D8C7',
+    backgroundColor: '#350c30',
     borderWidth: 0,
-    color: '#FFFFFF',
+    color: '#ab3a3a',
     borderColor: '#51D8C7',
     alignItems: 'center',
     borderRadius: 5,
