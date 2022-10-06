@@ -35,18 +35,6 @@ const App = () => {
           color="black"
           //Background Color of the QR Code (Optional)
           backgroundColor="white"
-          //Logo of in the center of QR Code (Optional)
-          logo={{
-            url: 'https://raw.githubusercontent.com/AboutReact/sampleresource/master/logosmalltransparen.png',
-          }}
-          //Center Logo size  (Optional)
-          logoSize={30}
-          //Center Logo margin (Optional)
-          logoMargin={2}
-          //Center Logo radius (Optional)
-          logoBorderRadius={15}
-          //Center Logo background (Optional)
-          logoBackgroundColor="yellow"
         />
         <Text style={styles.textStyle}>
           Please insert any value to generate QR code
@@ -55,6 +43,7 @@ const App = () => {
           style={styles.textInputStyle}
           onChangeText={inputText => setInputText(inputText)}
           placeholder="Enter Any Value"
+          placeholderTextColor="#8b8a8a"
           value={inputText}
         />
         <TouchableOpacity
@@ -71,7 +60,7 @@ export default App;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#e2cc23',
+    backgroundColor: '#cfcec6',
     justifyContent: 'center',
     alignItems: 'center',
     textAlign: 'center',
@@ -89,6 +78,9 @@ const styles = StyleSheet.create({
   textInputStyle: {
     flexDirection: 'row',
     height: 40,
+    width: 200,
+    padding: 10,
+    borderWidth: 2,
     marginTop: 20,
     marginLeft: 35,
     marginRight: 35,
