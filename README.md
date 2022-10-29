@@ -17,6 +17,4 @@ Run `cd ios && pod install`
 
 ## Screenshots
 
-<img src="https://user-images.githubusercontent.com/46760095/193960400-101f43dd-b095-449d-b4ed-93bb7b649b1b.png" width="200" height="400">
-
-
+<img src="https://user-images.githubusercontent.com/46760095/198825237-0d1ce59f-b57b-4a5f-ac39-917fc643eb32.png" width="200" height="400">
