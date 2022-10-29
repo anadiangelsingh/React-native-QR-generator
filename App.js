@@ -23,9 +23,7 @@ const App = () => {
   return (
     <SafeAreaView style={{flex: 1}}>
       <View style={styles.container}>
-        <Text style={styles.titleStyle}>
-          Generation of QR Code in React Native
-        </Text>
+        <Text style={styles.titleStyle}>QR Code Generator</Text>
         <QRCode
           //QR code value
           value={qrvalue ? qrvalue : 'NA'}
